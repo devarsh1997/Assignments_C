@@ -1,0 +1,26 @@
+/*****************************************************
+ * NAME: assignment_12.c                             *  
+ *                                                   *
+ * AUTHOR: Devarsh Ruparelia                         *
+ *                                                   *
+ * EMAIL: devarsh.ruparelia@gmail.com                *
+ *                                                   *
+ * PURPOSE: Program to check if a number is prime    *
+ *           or not.                                 *
+ *                                                   *                          
+ * DATE: 02/05/2016                                  *
+ *                                                   *
+ *****************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+
+
+
+
+
+
+
+} 

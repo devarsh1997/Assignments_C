@@ -1,0 +1,30 @@
+/*****************************************************
+ * NAME: assignment_17.c                             *  
+ *                                                   *
+ * AUTHOR: Devarsh Ruparelia                         *
+ *                                                   *
+ * EMAIL: devarsh.ruparelia@gmail.com                *
+ *                                                   *
+ * PURPOSE: Using Swtich statement write a weekday   *
+ *           displaying program.                     *
+ *                                                   *                          
+ * DATE: 06/05/2016                                  *
+ *                                                   *
+ *****************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+  // Declaration of variables:
+  int day; 
+ 
+
+  // User input:
+  printf("Enter a number from 1 to 7 to display the day:");
+  scanf("%d", &day);
+
+  // Processing and I/O:
+  switch(day)
+    
+    

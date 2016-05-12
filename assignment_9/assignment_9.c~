@@ -1,0 +1,31 @@
+/*****************************************************
+ * NAME: assignment_8.c                              *  
+ *                                                   *
+ * AUTHOR: Devarsh Ruparelia                         *
+ *                                                   *
+ * EMAIL: devarsh.ruparelia@gmail.com                *
+ *                                                   *
+ * PURPOSE: Program to to show swap of two Numbers   *
+ *           without using third variable.           *
+ *                                                   *                          
+ * DATE: 02/05/2016                                  *
+ *                                                   *
+ *****************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+  // Declaration of variables:
+  int a, b;
+
+  // Processing of variables:
+  a = 10;
+  b = 11;
+
+  a = b;
+  b = a;
+
+  // Display of output:
+  printf("a = %d, b = %d\n", &a, &b);
+}  

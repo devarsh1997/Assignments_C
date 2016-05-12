@@ -1,0 +1,49 @@
+/*****************************************************
+ * NAME: assignment_11.c                             *  
+ *                                                   *
+ * AUTHOR: Devarsh Ruparelia                         *
+ *                                                   *
+ * EMAIL: devarsh.ruparelia@gmail.com                *
+ *                                                   *
+ * PURPOSE: Program to check if given year is a leap *
+ *           year or not.                            *
+ *                                                   *                          
+ * DATE: 01/05/2016                                  *
+ *                                                   *
+ *****************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+  // Declaration of variables:
+  int year;
+
+  // User Input:
+  printf("Welcome to Leap Year checker program.\n");
+  printf("Enter the year you want to check: ");
+  scanf("%d", &year);
+  
+  // Input & Output:
+  if (year % 100 == 0) {
+    if (year % 400 == 0) {
+      printf("Yes, the year entered, %d, is a leap year.\n", year);
+    }
+
+    else {
+      printf("No, the year entered, %d, is not a leap year.\n", year);
+    }
+  }
+
+  else {
+    if (year % 4 == 0) {
+      printf("Yes, the year entered, %d, is a leap year.\n", year);
+    }
+
+    else {
+      printf("No, the year entered, %d, is not a leap year.\n", year);
+    }
+  }
+   
+  printf("Thank you for using leap year checker program.\n");
+}  

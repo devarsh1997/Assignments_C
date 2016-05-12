@@ -1,0 +1,22 @@
+/*****************************************************
+ * NAME: assignment_18.c                             *  
+ *                                                   *
+ * AUTHOR: Devarsh Ruparelia                         *
+ *                                                   *
+ * EMAIL: devarsh.ruparelia@gmail.com                *
+ *                                                   *
+ * PURPOSE: Use if to find out area of triangle,     *
+ *           rectangle and circle.                   *                     
+ *                                                   *                        
+ * DATE: 08/05/2016                                  *
+ *                                                   *
+ *****************************************************/
+
+#include <stdio.h>
+#include <math.h>
+
+
+#define pi 3.14
+
+int main()
+{

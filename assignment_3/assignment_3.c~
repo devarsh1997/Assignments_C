@@ -1,0 +1,25 @@
+/*****************************************************
+ * NAME: assignment_3.c                              *  
+ *                                                   *
+ * AUTHOR: Devarsh Ruparelia                         *
+ *                                                   *
+ * EMAIL: devarsh.ruparelia@gmail.com                *
+ *                                                   *
+ * PURPOSE: Program to make square and cube of       *
+ *           a number.                               *
+ *                                                   * 
+ * DATE: 29/04/2016                                  *
+ *                                                   *
+ *****************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+  // Declaration of Variables
+  int a;
+  int square, cube;
+
+  // Processing the
+  
+}

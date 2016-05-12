@@ -1,0 +1,23 @@
+//
+//  assignment_13.c
+//  
+//
+//  Created by Devarsh Ruparelia on 03/05/16.
+//
+//
+
+#include <stdio.h>
+
+int main() {
+    // Declaration of variables
+    int a, b;
+    
+    // Output
+    a = 10;
+    b = 20;
+    
+    printf("%d %d", a, b);
+    
+    
+}
+
