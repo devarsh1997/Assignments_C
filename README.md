@@ -11,7 +11,7 @@ These assignments were part of local bootcamp on C during May of 2016. Basics of
 
 ## Contributor(s)
 
-Devarsh Ruparelia (@thedevarsh)
+Devarsh Ruparelia [email: **devarsh.ruparelia@gmail.com**]
 
 ## The MIT License
 The MIT License (MIT)
