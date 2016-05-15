@@ -18,6 +18,7 @@ int main()
 {
   // Variables:
   int i, j, k, l, ans, fib_1, fib_2, fib_val;
+  int table_var, product;
 
 
   // Program A
@@ -76,5 +77,13 @@ int main()
   }
 
   // Program F
-  printf("This program prints the multiplication table of a number till 12.\n"); /* INCOMPLETE PROGRAM */
+  printf("This program prints the multiplication table of a number till 12.\n");
+  printf("Enter a number of your choice:");
+  scanf("%d",&table_var);
+
+  for(i = 1; i <= 12; i++) {
+    product = table_var * i;
+    printf("%d * %d = %d\n", i, table_var, product);
+  }
+
 }
