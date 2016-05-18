@@ -8,18 +8,21 @@
  * PURPOSE: Some sample programs using loop          *
  *           constructs.                             *                     
  *                                                   *                        
- * DATE: 08/05/2016                                  *
+ * DATE: 18/05/2016                                  *
  *                                                   *
  *****************************************************/
 
 #include <stdio.h>
+#include <stdbool.h>
 
 int main()
 {
   // Variables:
-  int i, j, k, l, ans, fib_1, fib_2, fib_val;
-  int table_var, product;
-
+  int i, j, k, l, m;
+  int num, remainder;
+  int ans, fib_1, fib_2, fib_val;
+  int table_var, product, reverse_var = 0;
+  int max_so_far = -1; // -1 so it is less than any digit in a given number
 
   // Program A
   for(i = 1; i <= 10; i++) {
@@ -86,4 +89,49 @@ int main()
     printf("%d * %d = %d\n", i, table_var, product);
   }
 
+  // Program G
+  printf("Program prints reverse number of the given input number.\n");
+  printf("Enter a number below of your choice:");
+  scanf("%d", &m);
+
+  /*******************************************
+   * Note the use of Mod operator with While * 
+   *******************************************/
+
+  while (m != 0) {
+    reverse_var = reverse_var * 10;
+    reverse_var = reverse_var + m % 10;
+    m = m/10;
+  }
+
+  printf("Reverse of the input number = %d\n", reverse_var);
+
+  // Program H
+  printf("The function of the given program is to find max digit in a given number.\n");
+
+ printf("Enter a positive integer of your choice here:");
+ scanf("%d", &num);
+ 
+
+ while (true) {
+   if (num == 0) {
+     break;
+   }
+
+   else {
+     while (num > 0) {
+       remainder = num % 10;
+
+       if (remainder > max_so_far) {
+	 max_so_far = remainder;
+       }
+
+       num = num/10;
+ 
+     }
+
+   }
+ }
+ printf("Max digit = %d\n", max_so_far);
 }
+
