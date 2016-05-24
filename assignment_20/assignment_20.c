@@ -179,10 +179,9 @@ int main()
            first_dig = num_int % 10;
 	   num_int = num_int / 10;
        }
-       
+   sum_req = first_dig + last_dig;    
    }
-   sum_req = first_dig + last_dig;
-   printf("Sum of first and last = %d\n", sum_req);    
- } 
+ }
+ printf("Sum of first and last = %d\n", sum_req);
 }
 
