@@ -33,7 +33,4 @@ int main()
     printf("\n"); 
   }
 
-  // Pyramid 2
-  printf("
-
 }
