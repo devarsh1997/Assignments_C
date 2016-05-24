@@ -8,7 +8,7 @@
  * PURPOSE: Some sample programs using loop          *
  *           constructs.                             *                     
  *                                                   *                        
- * DATE: 18/05/2016                                  *
+ * DATE: 23/05/2016                                  *
  *                                                   *
  *****************************************************/
 
@@ -18,11 +18,12 @@
 int main()
 {
   // Variables:
-  int i, j, k, l, m;
-  int num, remainder;
+  int i, j, k, l, m, n;
+  int num, remainder, sum, rem_sum, num_int;
   int ans, fib_1, fib_2, fib_val;
   int table_var, product, reverse_var = 0;
-  int max_so_far = -1; // -1 so it is less than any digit in a given number
+  int max_so_far = 0; // -1 so it is less than any digit in a given number
+  int sum_req, last_dig, first_dig;
 
   // Program A
   for(i = 1; i <= 10; i++) {
@@ -133,5 +134,55 @@ int main()
    }
  }
  printf("Max digit = %d\n", max_so_far);
+
+ // Program I
+ printf("Prints the summation of the digits of input number.\n");
+ printf("Enter the choice of the number:");
+ scanf("%d",&num_int);
+
+ while (true) {
+   if (num_int == 0) {
+     sum = 0;
+     break;
+   }
+
+   else {
+     while (num_int > 0) {
+       rem_sum = num_int % 10;
+
+       sum = sum + rem_sum;
+
+       num_int = num_int / 10;
+
+     }
+     printf("Sum = %d\n", sum);
+     
+   }
+ }
+
+ // Program J
+ printf("Summation of first and last digit.\n");
+ printf("Enter a number of your choice here:");
+
+ scanf("%d", &num_int);
+
+ while (true) {
+   if (num_int == 0) {
+     sum_req = 0;
+     break;
+   }
+
+   else {
+      last_dig = num_int % 10;
+      
+      while (num_int > 0) {
+           first_dig = num_int % 10;
+	   num_int = num_int / 10;
+       }
+       
+   }
+   sum_req = first_dig + last_dig;
+   printf("Sum of first and last = %d\n", sum_req);    
+ } 
 }
 
