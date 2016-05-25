@@ -36,6 +36,7 @@ int main()
     printf("\n"); 
   }
 
+
   // Pyramid 2
   printf("Pyramid #2\n");
   printf("Enter the loop repeat number (rows): ");
@@ -70,7 +71,4 @@ int main()
       
     printf("*");
     }
-
-  
-
 }
